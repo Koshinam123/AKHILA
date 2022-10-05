@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[inline,shortlabels]{enumitem}
+
+\title{MATHS}
+\author{ALGEBRA}
+\date{August 2022}
+\maketitle
+
+\begin{document}
+\begin{large}
+FORMULAE
+\end{large}
+\newline
+\begin{itemize}[label=$\star$]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{itemize}
+\begin{itemize}[label=$\ast$]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{itemize}
+\begin{enumerate}[label=\fbox{\arabic*}]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+\begin{enumerate}[label=\alph*]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+
+\begin{enumerate}[label=\roman*]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+\begin{enumerate}[label=\Roman*]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+some text here.............
+\begin{enumerate}[resume*]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \subitem a,b are variables
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+\begin{enumerate}[]
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+\begin{enumerate*}[]                %INLINE PACKAGE USED HERE
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate*}
+\begin{enumerate}
+
+ \item[$\ast$] $(a+b)^2=a^2+b^2+2ab$
+ \item[$\star$] $(a-b)^2=a^2+b^2-2ab$
+ \item[$+$] $hypo^2=adj^2+oppo^2$
+\end{enumerate}
+
+\begin{enumerate}[I)]       %SHORTLABELS PACKAGE USED HERE
+
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+\begin{enumerate}[label=$\Rightarrow$]
+ \item $(a+b)^2=a^2+b^2+2ab$
+ \item $(a-b)^2=a^2+b^2-2ab$
+ 
+\end{enumerate}
+
+\begin{description}
+\item [$1^s^t$]   description is here
+\end{description}
+\end{document}
+
