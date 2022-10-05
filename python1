@@ -1,0 +1,203 @@
+
+
+x=6
+print(x,type(x))
+print(x + 1)   # Addition
+print(x - 1)   # Subtraction
+print(x * 2)   # Multiplication
+print(x ** 2)  # Exponentiation
+print(x)
+
+6 <class 'int'>
+7
+5
+12
+36
+6
+
+x += 1
+print(x)
+x *= 2
+print(x)
+
+7
+14
+
+x=2
+x+=1
+print(x)
+
+3
+
+y = 9.3
+print(type(y))
+print(y, y + 1, y * 2, y ** 2)
+
+<class 'float'>
+9.3 10.3 18.6 86.49000000000001
+
+x,y= {True, False}
+print(type(t))
+
+<class 'bool'>
+
+print(t and f) # Logical AND;
+print(t or f)  # Logical OR;
+print(not t)   # Logical NOT;
+print(t != f)  # Logical XOR;
+
+False
+True
+False
+True
+
+hello = 'hi' # String literals can use single quotes
+world = 'rgukt' # or double quotes; it does not matter
+print(hello, len(world))
+
+hi 5
+
+hw = hello + ' ' + world  # String concatenation
+print(hw)
+hw12 = '{} {} {} {}'.format(hello, world,"good","morning")  # string formatting
+print(hw12)
+
+hi rgukt
+hi rgukt good morning
+
+s = "rgukt"
+print(s.capitalize())  # Capitalize a string
+print(s.upper())       # Convert a string to uppercase; prints "HELLO"
+print(s.rjust(5))      # Right-justify a string, padding with spaces
+print(s.center(7))     # Center a string, padding with spaces
+print(s.replace('t', '(hello)'))  # Replace all instances of one substring with another
+print('  world '.strip())  # Strip leading and trailing whitespace
+
+Rgukt
+RGUKT
+rgukt
+ rgukt 
+rguk(hello)
+world
+
+xp = [3, 1, 2]   # Create a list
+print(xp, xp[2])
+print(xp[-1])# Negative indices count from the end of the list; prints "2"
+print(xp[-3])
+print(xp[1])
+print(xp[0])
+print(xp[2])
+print(xp[-2])
+
+[3, 1, 2] 2
+2
+3
+1
+3
+2
+1
+
+xp[2] = 'zoo'    # Lists can contain elements of different types
+print(xp)
+
+[3, 1, 'zoo']
+
+xp=["rgukt"]
+xp.append('cse')# Add a new element to the end of the list
+xp.append("akhi")
+print(xp)  
+
+['rgukt', 'cse', 'akhi']
+
+x = xp.pop()     # Remove and return the last element of the list
+print(x, xp)
+
+akhi ['rgukt', 'cse']
+
+num = list(range(9))    
+print(num)         
+print(num[2:4])    
+print(num[2:])    
+print(num[:2])    
+print(num[:])     
+print(num[:-1])   
+num[2:4] = [8, 9] 
+print(num)         
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+[2, 3]
+[2, 3, 4, 5, 6, 7, 8]
+[0, 1]
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7]
+[0, 1, 8, 9, 4, 5, 6, 7, 8]
+
+animals = ['cow','dog', 'monkey']
+for animal in animals:
+    print(animal)
+
+cow
+dog
+monkey
+
+flowers = ['lotus','rose','hibiscus']
+for flower in flowers:
+    print(flower)
+
+lotus
+rose
+hibiscus
+
+animals = ['cat', 'dog', 'monkey']
+for num, animal in enumerate(animals):
+    print('@{}: {}'.format(num+ 1, animal))
+
+@1: cat
+@2: dog
+@3: monkey
+
+animals = ['cat', 'dog', 'monkey']
+for num, animal in enumerate(animals):
+    print('*{}: {}'.format(num+ 1, animals))
+
+*1: ['cat', 'dog', 'monkey']
+*2: ['cat', 'dog', 'monkey']
+*3: ['cat', 'dog', 'monkey']
+
+nums = [0, 1, 2, 3, 4]
+squares = []
+print(squares)
+for x in nums:
+    squares.append(x ** 2)
+print(squares)
+
+[]
+[0, 1, 4, 9, 16]
+
+nums = [0, 1, 2, 3, 4]
+squares = [x ** 2 for x in nums]
+print(squares)
+
+[0, 1, 4, 9, 16]
+
+nums = [0, 1, 2, 3, 4]
+even_squares = [x ** 2 for x in nums if x % 2 == 0]
+odd_squares=[x**2 for x in nums if x % 2!=0]
+print(even_squares)
+print(odd_squares)
+
+[0, 4, 16]
+[1, 9]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
