@@ -1,0 +1,142 @@
+x=6
+print(x,type(x))
+print(x + 1)   # Addition
+print(x - 1)   # Subtraction
+print(x * 2)   # Multiplication
+print(x ** 2)  # Exponentiation
+print(x)
+
+x += 1
+print(x)
+x *= 2
+print(x)
+
+
+x=2
+x+=1
+print(x)
+
+y = 9.3
+print(type(y))
+print(y, y + 1, y * 2, y ** 2)
+
+x,y= {True, False}
+print(type(t))
+
+print(t and f) # Logical AND;
+print(t or f)  # Logical OR;
+print(not t)   # Logical NOT;
+print(t != f)  # Logical XOR;
+
+
+hello = 'hi' # String literals can use single quotes
+world = 'rgukt' # or double quotes; it does not matter
+print(hello, len(world))
+
+
+hw = hello + ' ' + world  # String concatenation
+print(hw)
+hw12 = '{} {} {} {}'.format(hello, world,"good","morning")  # string formatting
+print(hw12)
+
+
+
+
+
+s = "rgukt"
+print(s.capitalize())  # Capitalize a string
+print(s.upper())       # Convert a string to uppercase; prints "HELLO"
+print(s.rjust(5))      # Right-justify a string, padding with spaces
+print(s.center(7))     # Center a string, padding with spaces
+print(s.replace('t', '(hello)'))  # Replace all instances of one substring with another
+print('  world '.strip())  # Strip leading and trailing whitespace
+
+
+
+xp = [3, 1, 2]   # Create a list
+print(xp, xp[2])
+print(xp[-1])# Negative indices count from the end of the list; prints "2"
+print(xp[-3])
+print(xp[1])
+print(xp[0])
+print(xp[2])
+print(xp[-2])
+
+xp[2] = 'zoo'    # Lists can contain elements of different types
+print(xp)
+
+
+xp=["rgukt"]
+xp.append('cse')# Add a new element to the end of the list
+xp.append("akhi")
+print(xp)  
+
+x = xp.pop()     # Remove and return the last element of the list
+print(x, xp)
+
+
+num = list(range(9))    
+print(num)         
+print(num[2:4])    
+print(num[2:])    
+print(num[:2])    
+print(num[:])     
+print(num[:-1])   
+num[2:4] = [8, 9] 
+print(num)         
+
+
+animals = ['cow','dog', 'monkey']
+for animal in animals:
+    print(animal)
+
+
+
+
+
+flowers = ['lotus','rose','hibiscus']
+for flower in flowers:
+    print(flower)
+
+
+
+animals = ['cat', 'dog', 'monkey']
+for num, animal in enumerate(animals):
+    print('@{}: {}'.format(num+ 1, animal))
+
+
+animals = ['cat', 'dog', 'monkey']
+for num, animal in enumerate(animals):
+    print('*{}: {}'.format(num+ 1, animals))
+
+
+nums = [0, 1, 2, 3, 4]
+squares = []
+print(squares)
+for x in nums:
+    squares.append(x ** 2)
+print(squares)
+
+
+
+
+nums = [0, 1, 2, 3, 4]
+squares = [x ** 2 for x in nums]
+print(squares)
+
+nums = [0, 1, 2, 3, 4]
+even_squares = [x ** 2 for x in nums if x % 2 == 0]
+odd_squares=[x**2 for x in nums if x % 2!=0]
+print(even_squares)
+print(odd_squares)
+
+
+
+
+
+
+
+
+
+
+
